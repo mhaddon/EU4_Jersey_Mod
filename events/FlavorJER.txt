@@ -1,0 +1,66 @@
+########################################
+# Major Flavor Events                  #
+########################################
+
+namespace = flavor_jer
+normal_or_historical_nations = yes
+
+# Island Militia
+country_event = {
+	id = flavor_jer.1
+	title = "flavor_jer.1.title"
+	desc = "flavor_jer.1.desc"
+	picture = CONQUEST_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = JER
+		num_of_cities = 1
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {		# Support the militia
+		name = "flavor_jer.1.ok"
+		ai_chance = { factor = 100 }
+		add_mil_power = 100
+		capital_scope {
+		    add_base_manpower = 2
+		}
+	}
+}
+
+# Coin Hoard
+country_event = {
+	id = flavor_jer.2
+	title = "flavor_jer.2.title"
+	desc = "flavor_jer.2.desc"
+	picture = ECONOMY_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = JER
+		num_of_cities = 1
+	}
+
+	mean_time_to_happen = {
+		months = 1800
+	}
+
+	option = {		# Sell The Coin Hoard
+		name = "flavor_jer.2.sell"
+		ai_chance = { factor = 25 }
+		add_treasury =  1500
+	}
+
+	option = {		# Museum
+		name = "flavor_jer.2.museum"
+		ai_chance = { factor = 75 }
+		add_stability = 1
+		add_prestige = 50
+	}
+}

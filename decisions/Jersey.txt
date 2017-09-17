@@ -1,0 +1,14 @@
+country_decisions = {
+
+    unite_channel_islands = {
+        potential = {
+            tag = JER
+        }
+
+        effect = {
+            4268 = {
+                cede_province = JER
+            }
+        }
+    }
+}

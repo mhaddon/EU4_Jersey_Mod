@@ -1,0 +1,15 @@
+# Jersey-England
+union = {
+	first = ENG
+	second = JER
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+# Guernsey-England
+union = {
+	first = ENG
+	second = GUR
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}

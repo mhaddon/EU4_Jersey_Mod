@@ -1,0 +1,40 @@
+government = feudal_monarchy
+government_rank = 1
+technology_group = western
+primary_culture = normand
+add_accepted_culture = english
+add_accepted_culture = cosmopolitan_french
+historical_friend = ENG JER
+religion = catholic
+capital = 4268	# Caen
+mercantilism = 25
+national_focus = DIP
+
+1422.8.31 = {
+	monarch = {
+		name = "Henry VI"
+		dynasty = "Lancaster"
+		birth_date = 1421.12.6
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = infertile_personality
+}
+
+1465.8.15 = {
+	monarch = {
+		name = "Charles I"
+		dynasty = "de Valois"
+		adm = 0
+		dip = 1
+		mil = 0
+	}
+}
+
+1515.1.1 = { government = despotic_monarchy }
+
+1589.8.3 = { government = administrative_monarchy }
+
+1661.3.9 = { government = despotic_monarchy }
