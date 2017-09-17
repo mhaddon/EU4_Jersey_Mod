@@ -4512,6 +4512,9 @@
  flavor_kor.6.d:0 "It's better not to meddle with the justice system."
  japan.1.db:0 "With the fall of Kyoto [new_shogunate.GetName] has freed the Emperor and resumed the office of Shogun in his service. Long live the Empire of Japan!"
  japan.1.dc:0 "With the fall of Kyoto the Emperor of Japan is no longer protected by the [From.GetName] Shogunate. The office has lost all relevance and the Daimyo of Japan will no longer pretend to honor the wishes of the old Shogun."
+ flavor_jer.0.title:0 "Jersey"
+ flavor_jer.0.desc:0 "After the loss of Normandy in 1204, and the defiance of Jersey to surrender to French rule. A seemingly unimportant Norman island would be thrown into the center of a near millennial long conflict between England and France.\nJersey has stood as a bastion of English rule over the English Channel, regardless of how close Jersey is to France.\nIn World War 2, the occupation of Jersey by Nazi forces was a great symbolic act, which was used to demonstrate the ability of the Axis forces to conquer the rest of the British Isles within mere weeks. Hitler himself took great pride in the ownership of the Channel Islands and fortified the islands with over 1.7 million cubic meters of concrete.\nOutside of war, Jersey is well known for its exports of milk, textiles and potatoes. With milk from Jersey cows ending up as far as Japan.\nThis mod is meant to enlighten the history of my home island, aswell as creating a fun scenario.\nHave fun!"
+ flavor_jer.0.ok:0 "Bouan viage!"
  flavor_jer.1.title:0 "Form The Royal Militia"
  flavor_jer.1.desc:0 "After being raided by the exiled King David II of Scotland in 1336, King Edward III of England ordered Thomas de Ferrers, Warden of the Isles, to levy and equip a militia of 'all men capable of bearing arms, and to form them into companies of thousands, hundreds and twenties, and to lead them well-armed and arrayed for the defence of the islands'. This created an organised, compulsory and unpaid, Island militia."
  flavor_jer.1.ok:0 "Support the militia!"
@@ -4519,6 +4522,9 @@
  flavor_jer.2.desc:0 "In June 2012 70,000 late Iron Age and Roman coins were found in Jersey. This hoard included antique torques, beads and silver jewelry. It is believed that threatened Gaulic and Breton tribes buried their valuables here in order to ensure it was safe from the Roman invaders."
  flavor_jer.2.sell:0 "This will line our coffers nicely"
  flavor_jer.2.museum:0 "This belongs in a museum!"
-
+ flavor_jer.3.title:0 "Papal Bull"
+ flavor_jer.3.desc:0 "War has broken out again between France and England"
+ flavor_jer.3.abstain:0 "Abstain from the war"
+ flavor_jer.3.continue:0 "Call the militia!"
 
 

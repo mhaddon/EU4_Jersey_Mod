@@ -1,4 +1,4 @@
-government = feudal_monarchy
+government = english_monarchy
 government_rank = 1
 technology_group = western
 primary_culture = normand

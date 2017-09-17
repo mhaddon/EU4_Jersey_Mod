@@ -9789,11 +9789,12 @@ EST_ideas = {
 
 JER_ideas = {
    start = {
-
+		galley_cost = -0.10
+        improve_relation_modifier = 0.10
    }
 
    bonus = {
-
+        religious_unity = 0.35
    }
 
    trigger = {
@@ -9802,5 +9803,34 @@ JER_ideas = {
 
    free = yes
 
+   jer_castles = {
+   		fort_maintenance_modifier = -0.75
+        defensiveness = 0.15
+   }
+
+   jer_white_flag = {
+        diplomatic_reputation = 1
+   }
+
+   jer_tolerant_nation = {
+        tolerance_heretic = 3
+   }
+
+   jer_occupation = {
+        land_attrition = -0.15
+   }
+
+   jer_harsh_waters = {
+    	naval_attrition = -0.10
+   }
+
+   jer_unlikely_exporter = {
+   		production_efficiency = 0.20
+   }
+
+
+   jer_test = {
+		global_unrest = -1
+   }
 
 }

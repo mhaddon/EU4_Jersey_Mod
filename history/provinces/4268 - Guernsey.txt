@@ -21,7 +21,6 @@ discovered_by = ottoman
 
 add_core = FRA
 add_core = NRM
-add_core = ENG
 
 1415.10.25 = { controller = GUR } # The Battle of Agincourt
 1420.5.12 = { owner = GUR add_core = GUR } # Treaty of Troyes

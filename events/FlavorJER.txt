@@ -5,6 +5,29 @@
 namespace = flavor_jer
 normal_or_historical_nations = yes
 
+# Hello World
+country_event = {
+	id = flavor_jer.0
+	title = "flavor_jer.0.title"
+	desc = "flavor_jer.0.desc"
+	picture = CONQUEST_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = JER
+		num_of_cities = 1
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "flavor_jer.0.ok"
+	}
+}
+
 # Island Militia
 country_event = {
 	id = flavor_jer.1
@@ -20,7 +43,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		months = 3
 	}
 
 	option = {		# Support the militia
@@ -62,5 +85,65 @@ country_event = {
 		ai_chance = { factor = 75 }
 		add_stability = 1
 		add_prestige = 50
+	}
+}
+
+# Papal Bull
+country_event = {
+	id = flavor_jer.3
+	title = "flavor_jer.3.title"
+	desc = "flavor_jer.3.desc"
+	picture = POPE_PREACHING_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = JER
+		NOT = { is_year = 1500 }
+		is_at_war = yes
+		war_with = ENG
+		num_of_cities = 1
+
+        OR = {
+            is_in_war = {
+                attacker_leader = ENG
+                defender_leader = FRA
+            }
+            is_in_war = {
+                attacker_leader = FRA
+                defender_leader = ENG
+            }
+        }
+
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {		# Abstain from the war
+		name = "flavor_jer.3.abstain"
+		ai_chance = { factor = 75 }
+		add_treasury =  1500
+
+		add_papal_influence = 10
+
+        ENG = {
+            break_union = JER
+            create_guarantee = JER
+        }
+
+        white_peace = FRA
+        add_truce_with = FRA
+        add_truce_with = ENG
+	}
+
+	option = {		# Continue the war
+		name = "flavor_jer.3.continue"
+		ai_chance = { factor = 25 }
+		add_manpower = 0.5
+		add_sailors = 0.5
+		add_prestige = 15
+		add_war_exhaustion = 2
 	}
 }

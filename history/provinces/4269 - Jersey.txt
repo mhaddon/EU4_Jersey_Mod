@@ -21,7 +21,8 @@ discovered_by = ottoman
 
 add_core = FRA
 add_core = NRM
-add_core = ENG
+
+fort_15th = yes
 
 1415.10.25 = { controller = JER } # The Battle of Agincourt
 1420.5.12 = { owner = JER add_core = JER } # Treaty of Troyes
