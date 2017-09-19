@@ -1,0 +1,54 @@
+song = {
+	name = "jer_anthem"
+
+	chance = {
+		modifier = {
+			factor = 100
+			tag = JER
+		}
+	}
+}
+
+song = {
+	name = "jer_grouville"
+
+	chance = {
+		modifier = {
+			factor = 100
+			tag = JER
+		}
+	}
+}
+
+song = {
+	name = "jer_broadbean"
+
+	chance = {
+		modifier = {
+			factor = 100
+			tag = JER
+		}
+	}
+}
+
+song = {
+	name = "jer_beancrock"
+
+	chance = {
+		modifier = {
+			factor = 100
+			tag = JER
+		}
+	}
+}
+
+song = {
+	name = "jer_crapaud"
+
+	chance = {
+		modifier = {
+			factor = 100
+			tag = JER
+		}
+	}
+}

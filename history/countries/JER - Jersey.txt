@@ -1,4 +1,4 @@
-government = english_monarchy
+government = jersey_bailiwick
 government_rank = 1
 technology_group = western
 primary_culture = normand
@@ -10,31 +10,35 @@ capital = 4269	# Caen
 mercantilism = 25
 national_focus = DIP
 
-1422.8.31 = {
+1437.8.31 = {
 	monarch = {
-		name = "Henry VI"
-		dynasty = "Lancaster"
+		name = "Humphrey, Duke of Gloucester"
+		dynasty = "Gloucester"
 		birth_date = 1421.12.6
-		adm = 0
-		dip = 0
-		mil = 0
+		adm = 3
+		dip = 3
+		mil = 3
 	}
-	clear_scripted_personalities = yes
-	add_ruler_personality = infertile_personality
 }
 
-1465.8.15 = {
+1447.8.31 = {
 	monarch = {
-		name = "Charles I"
-		dynasty = "de Valois"
-		adm = 0
-		dip = 1
-		mil = 0
+		name = "Anne de Beauchamp"
+		dynasty = "Beauchamp"
+		birth_date = 1421.12.6
+		adm = 3
+		dip = 3
+		mil = 3
 	}
 }
 
-1515.1.1 = { government = despotic_monarchy }
-
-1589.8.3 = { government = administrative_monarchy }
-
-1661.3.9 = { government = despotic_monarchy }
+1449.8.31 = {
+	monarch = {
+		name = "Richard Neville, Earl of Warwick"
+		dynasty = "Neville"
+		birth_date = 1421.12.6
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

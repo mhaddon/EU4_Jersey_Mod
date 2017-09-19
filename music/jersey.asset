@@ -1,0 +1,29 @@
+music = {
+	name = "jer_anthem"
+	file = "jer_anthem.ogg"
+}
+
+music = {
+	name = "jer_grouville"
+	file = "jer_grouville.ogg"
+}
+
+music = {
+	name = "jer_broadbean"
+	file = "jer_broadbean.ogg"
+}
+
+music = {
+	name = "jer_beancrock"
+	file = "jer_beancrock.ogg"
+}
+
+music = {
+	name = "jer_crapaud"
+	file = "jer_crapaud.ogg"
+}
+
+music = {
+	name = "maintheme"
+	file = "jer_anthem.ogg"
+}

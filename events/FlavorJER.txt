@@ -101,7 +101,7 @@ country_event = {
 		tag = JER
 		NOT = { is_year = 1500 }
 		is_at_war = yes
-		war_with = ENG
+		war_with = FRA
 		num_of_cities = 1
 
         OR = {
